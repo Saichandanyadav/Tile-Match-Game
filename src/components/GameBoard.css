@@ -1,0 +1,20 @@
+/* src/components/GameBoard.css */
+
+.game-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}

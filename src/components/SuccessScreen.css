@@ -1,0 +1,33 @@
+/* src/components/SuccessScreen.css */
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.success-message {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.success-details {
+  font-size: 1.2em;
+}
+
+.success-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.success-button:hover {
+  background-color: #45a049;
+}
